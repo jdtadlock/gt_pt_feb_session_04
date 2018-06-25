@@ -1,0 +1,21 @@
+{
+  "name": "04_session_6_24_18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"nodemon server.js\" \"cd ./client && yarn start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.10",
+    "mongoose": "^5.1.6"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.0"
+  }
+}
